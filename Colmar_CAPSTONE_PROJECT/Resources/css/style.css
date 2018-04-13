@@ -1,0 +1,586 @@
+/*Universal*/
+html,
+body {
+  font-family: Helvetica;
+  background-color:	#F0F0F0;
+}
+
+/*Top Bar*/
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  height: 4rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  margin: 0 0 0 1.5rem;
+}
+
+.logo .first {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #404040;
+}
+
+.logo span {
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #909090;
+}
+
+nav {
+  margin: 0 1rem 0 0;
+}
+
+nav span {
+  margin: 0.5rem;
+}
+
+a {
+  color: #404040;
+  text-decoration: none;
+}
+
+.top-mobile {
+  display: none;
+}
+/*Start Here*/
+
+.start-here {
+  display: flex;
+  align-items: center;
+  background-color: #C8C8C8;
+}
+
+.start-image {
+  width: 60%;
+  padding: 0;
+  margin: auto;
+}
+
+.start-image img {
+  width: 100%;
+  height: 100%;
+  margin: 2rem;
+}
+
+.start-content {
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.start-content h1 {
+  color: #404040;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0 2rem;
+
+}
+
+.start-content p {
+  color: #404040;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.start-content .button {
+  text-align: center;
+  color: #E0E0E0;
+  background-color: #303030;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  padding: 1rem 7rem;
+  margin: auto;
+}
+
+.start-content .button:hover {
+  color: #F5F5F5;
+  background-color: #989898;
+}
+
+/*Campus Info*/
+.campus-info {
+  display: flex;
+  flex-direction: row;
+}
+
+/*Campus Main*/
+
+.info-main {
+  width: 60%;
+}
+
+.info-main-image {
+  display: flex;
+  align-items: center;
+}
+
+.info-main-image img {
+  width: 100%;
+  height: 100%;
+  margin: 2rem 1.5rem;
+  overflow: hidden;
+}
+
+.info-main h1 {
+  color: #404040;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0 2rem;
+}
+
+.info-main p {
+  color: #404040;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding: 2rem;
+}
+
+.info-main .quote-author {
+  color: #404040;
+  font-size: 1.25rem;
+  font-weight: normal;
+  padding: 1rem 2rem;
+}
+
+/*Campus Sub*/
+.campus-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  border-left: 2px solid #C8C8C8;
+  margin: auto;
+}
+
+.info-sub {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid #C8C8C8;
+  margin: 1rem;
+}
+
+.info-sub-content {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 1rem;
+}
+
+.desktop-image {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+}
+
+.desktop-image img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 1px solid #C8C8C8;
+}
+
+.info-sub h2 {
+  font-size: 2rem;
+  color: #404040;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.info-sub p {
+  color: #404040;
+  font-weight: lighter;
+  margin: 0.5rem;
+}
+
+.info-sub a {
+  color: #3399FF;
+  font-weight: normal;
+}
+
+ /*Campus Guest*/
+.info-guest {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: auto;
+  margin: 1rem;
+  background-color: #C8C8C8;
+}
+
+.mobile-image {
+  display: none;
+}
+
+.info-guest h2 {
+  font-size: 2rem;
+  color: #404040;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.info-guest p {
+  color: #404040;
+  font-weight: lighter;
+  margin: 0.5rem;
+}
+
+.info-guest a {
+  color: #3399FF;
+  font-weight: normal;
+}
+
+/*Majors*/
+.majors-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E0E0E0;
+  padding-bottom: 2rem;
+}
+
+.majors-main h1 {
+  color: #404040;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 1.5rem auto;
+}
+
+ .majors-content {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+   margin: 0 3rem;
+ }
+
+.major {
+  flex-shrink: 1;
+  flex-basis: 23rem;
+  background-color: #F5F5F5;
+  padding-bottom: 1.5rem;
+  margin: 1rem;
+}
+
+.major img {
+  height: auto;
+  width: 100%;
+}
+
+.major-content h1 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.major-content p {
+  color: #707070;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  margin: 0.5rem 1rem;
+}
+
+/*Thesis*/
+
+.thesis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #C8C8C8;
+}
+
+.thesis h1 {
+  color: #404040;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 2rem auto;
+}
+
+.thesis-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*Reimagine*/
+.reimagine {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 1.5rem;
+}
+
+.reimagine video {
+  width: 100%;
+}
+
+.reimagine-content h2 {
+  color: #404040;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.reimagine-content p {
+  color: #707070;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+/*Thesis Sub*/
+.thesis-sub {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.thesis-work {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 1rem;
+}
+
+.thesis-image {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+}
+
+.thesis-image img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 1px solid #C8C8C8;
+}
+
+.thesis-work-content {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 1rem;
+}
+
+.thesis-work h2 {
+  font-size: 2rem;
+  color: #404040;
+  font-weight: normal;
+  margin: 0.5rem;
+}
+
+.thesis-work p {
+  color: #707070;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  margin: 0.5rem;
+}
+
+.fisma {
+  background-color: #C8C8C8;
+}
+
+
+/*Footer*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #707070;
+  margin: 1rem 1.5rem;
+}
+
+footer span {
+  padding: 1.5rem;
+}
+
+
+/*MOBILE MEDIA QUERIES*/
+
+@media only screen and (max-width: 1050px) /*Tablet Landscape*/ {
+
+  /*Universal*/
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  /*Top Bar*/
+
+  .top-bar {
+    width: 100%;
+    margin: auto;
+  }
+
+  .logo,
+  nav {
+    display: none;
+  }
+
+  .top-mobile {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+
+  /*Start Here*/
+
+  .start-here {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .start-image {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+  }
+
+  .start-image img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .start-content {
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  .start-content .button {
+    margin: auto;
+  }
+
+  /*Campus Info*/
+
+  .campus-info {
+    border-bottom: 2px solid #C8C8C8;
+  }
+
+  .info-main,
+  .desktop-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
+    width: 85%;
+    padding: 0;
+    margin: 1rem;;
+  }
+
+  .mobile-image img {
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+  }
+
+  .campus-sub {
+    width: 100%;
+    border: none;
+  }
+
+  .info-sub,
+  .info-guest {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:	#F0F0F0;
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+
+  .info-sub-content {
+    margin: 2rem;
+  }
+
+  .info-sub h2 {
+    font-size: 2rem;
+    color: #404040;
+    font-weight: bold;
+    margin: 0.5rem;
+  }
+
+  .info-sub p {
+    color: #404040;
+    font-weight: lighter;
+    margin: 0.5rem;
+  }
+
+  /*Majors*/
+
+  .major-image,
+  .major-content p {
+    display: none;
+  }
+
+  .majors-main {
+    background-color:	#F0F0F0;
+    border-bottom: 2px solid #C8C8C8;
+  }
+
+  .majors-content {
+    display: block;
+    width: 80%;
+    margin: 0.5rem;
+  }
+
+  .major {
+    padding: 0;
+  }
+
+  .major-content {
+    background-color: #C8C8C8;
+    padding: 1rem;
+  }
+
+
+  /*Thesis*/
+
+  .thesis {
+    border: none;
+  }
+
+  .thesis-sub,
+  .reimagine-content {
+    display: none;
+  }
+
+  .reimagine {
+    width: 100%;
+    margin: 0 0 1.5rem 0;
+  }
+
+
+  /*Footer*/
+
+  footer span {
+    display: none;
+  }
+
+/*END*/
+}
